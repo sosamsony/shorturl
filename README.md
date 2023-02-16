@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Alt Preview](https://www.photobox.co.uk/my/photo/full?photo_id=504471151283)
+![Alt Preview](https://github.com/sosamsony/shorturl/blob/master/shorturl/images/dispay.PNG)
 
 
 
