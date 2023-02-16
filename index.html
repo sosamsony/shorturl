@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://kit.fontawesome.com/b0cb6f0851.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Shortly URL</title>
+</head>
+<body>
+
+ <nav class="navbar flex content-container">
+   
+   <!--Left side of the navbar-->
+   <div class="nav-logo-lists flex">
+    <div class="navbar-logo flex">
+      <img alt="logo" src="/shorturl/images/logo.png">
+    </div>
+    <div class="nabvar-lists">
+      <ul class="gray-text">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Resources</li>
+      </ul>
+    </div>
+   </div>
+
+    <!--Right side of the navbar-->
+   <div class="nav-login-btn flex">
+     <div class="navbar-login flex"><span class="gray-text">Login</span></div>
+     <button class="signup-btn cayan-bg white-text fs-300">Sign Up</button>
+     <div class="fas fa-bars fs-500 gray-text" data-mobile-menu = "false">
+       <div class="mobile-menu dark-violet-bg white-text">
+         <ul>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Resources</li>
+         </ul>
+         <hr>
+         <div class="mobile-login"><span class="gray-text">Login</span></div>
+         <button class="mobile-menu-btn cayan-bg white-text fs-300">Sign Up</button>
+       </div>
+     </div>
+   </div>
+ </nav>
+  
+
+<!--The main content of the landing page-->
+
+<main class="main ">
+
+<section class="title-get-started grid content-container">
+
+<div class="intro-img grid">
+  <img alt="an illustration of someone working" src="/shorturl/images/illustration-working.svg">
+</div>
+
+<div class="intro flex">
+<h1 class="dark-blue-text fs-700">More than just shorter links</h1>
+<p class="gray-text fs-300">Build your brand's recognition and get detailed insights on how 
+  your links are performing</p>
+  <button class="cayan-bg white-text fs-400">Get Started</button>
+</div>
+
+</section>
+
+<div class="shorten-url-wrapper content-container">
+
+<div class="shorten-url dark-violet-bg flex">
+
+  <input placeholder="Shorten a link here..." type="text" class="gray-text url">
+  <span class="error red-text fs-200" style="padding: 0;">Please add a link</span>
+  <button class="white-text cayan-bg shortenBtn">Shorten It!</button>
+
+</div>
+
+</div>
+
+<div class="shortened-urls-wrapper content-container grid">
+
+<div class="shortened-url">
+  <p class="original"></p>
+  <hr>
+  <p class="short"></p>
+  
+  <button class="copy">Copy</button>
+</div> 
+
+</div>
+
+
+<div class="statistics-wrapper content-container">
+
+<div class="statistics-title grid">
+  <h2 class="fs-700 dark-blue-text">Advanced Statistics</h2>
+  <p class="gray-text">Track how your links are performing across the web with our 
+    advanced statistics dashboard </p>
+</div>
+
+<div class="services">
+
+  <section class="brand card ">
+   <div class="card-img dark-blue-bg flex"><img alt="icon" src="/shorturl/images/icon-brand-recognition.svg"></div>
+   <h3 class="dark-blue-text">Brand Recognition</h3>
+   <p class="gray-text">Boost your brand recognition with each click. Generic links don't a thing.
+     Branded links help instil confidence in your contnet.</p>
+  </section>
+  <div class="brand-line cayan-bg"></div>
+  
+
+  <section class="records card">
+    <div class="card-img dark-blue-bg flex"><img alt="icon" src="/shorturl/images/icon-detailed-records.svg"></div>
+    <h3 class="dark-blue-text">Detailed records</h3>
+    <p class="gray-text">Gain insights into whp is clicking your links. Knowing when and
+      where people engage with your content helps inform better decisions.
+    </p>
+   </section>
+   <div class="brand-line cayan-bg"></div>
+   
+   <section class="full-custom card">
+    <div class="card-img dark-blue-bg flex"><img alt="icon" src="/shorturl/images/icon-fully-customizable.svg"></div>
+    <h3 class="dark-blue-text">Fully Customizable</h3>
+    <p class="gray-text">Improve brand awareness and content discoverability through
+      customizable links, supercharging audience engagment.
+    </p>
+   </section>
+</div>
+</div>
+
+<div class="get-started content-container dark-violet-bg grid fs-500">
+  <h2 class="white-text">Boost your links today</h2>
+  <button class="cayan-bg white-text">Get Started</button>
+</div>
+
+</main>
+
+<footer class="footer content-container white-text grid">
+<div class="footer-logo flex">
+  
+  <a href="https://sosamson.com" target="_blank"><img alt="logo" src="/shorturl/images/logo.png"></a>
+</div>
+
+<div class="footer-lists-socials">
+<div class="footer-lists flex">
+  <div class="footer-features-list grid">
+    <span class="fs-400">Features</span>
+    <ul style="list-style: none;" class="grid">
+      <li class="gray-text fs-300">Link Shortening</li>
+      <li class="gray-text fs-300">Branded Links</li>
+      <li class="gray-text fs-300">Analytics</li>
+    </ul>
+  </div>
+
+  <div class="footer-resources-list grid">
+    <span class="fs-400">Resources</span>
+    <ul style="list-style: none;" class="grid">
+      <li class="gray-text fs-300">Blog</li>
+      <li class="gray-text fs-300">Developers</li>
+      <li class="gray-text fs-300">Support</li>
+    </ul>
+  </div>
+
+  <div class="footer-company-list grid">
+    <span class="fs-400">Company</span>
+    <ul style="list-style: none;" class="grid">
+      <li class="gray-text fs-300">About</li>
+      <li class="gray-text fs-300">Our Team</li>
+      <li class="gray-text fs-300">Careers</li>
+      <li class="gray-text fs-300">Contact</li>
+    </ul>
+  </div>
+
+
+</div>
+
+<div class="footer-socials flex">
+  <a href="https://twitter.com/sosamsony" target="_blank"><img alt="twitter" src="/shorturl/images/icon-twitter.svg"></a>
+  <a href="https://github.com/sosamsony" target="_blank"><img alt="pinterest" src="/shorturl/images/icon-pinterest.svg"></a>
+  <a href="https://linkedin.com/in/sosamsony"><img alt="instagram" src="/shorturl/images/icon-instagram.svg"></a>
+  <a href="https://facebook.com/sosamsony"><img alt="facebook" src="/shorturl/images/icon-facebook.svg"></a>
+</div>
+</div>
+</footer>
+<script src="script.js"></script>  
+</body>
+</html>
