@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://github.io/sosamson/shorturl/index.html)
+- Live Site URL: [Add live site URL here](https://shorturl.sosamson.com)
 
 ## My process
 
